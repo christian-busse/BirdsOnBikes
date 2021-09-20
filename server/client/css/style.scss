@@ -280,6 +280,17 @@ $lime-green: #A0D1A5;
     align-items: center;
 }
 
+#about-space-video{
+    padding-top: 2em;
+    padding-bottom: 3em;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
 @media only screen and (max-width: 900px){
     #about-space{
         flex-direction: column;

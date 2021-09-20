@@ -351,6 +351,27 @@
           align-items: center;
 }
 
+#about-space-video {
+  padding-top: 2em;
+  padding-bottom: 3em;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
 @media only screen and (max-width: 900px) {
   #about-space {
     -webkit-box-orient: vertical;
